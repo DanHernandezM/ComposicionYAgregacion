@@ -11,7 +11,7 @@ package com.mycompany.Ejemplos.Agregacion;
 class Pera {
 
     void estado() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("La pera ya esta podrida, hay que tirarla");
     }
     
 }

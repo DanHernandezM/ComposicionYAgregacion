@@ -11,7 +11,7 @@ package com.mycompany.Ejemplos.Agregacion;
 class Guayaba {
 
     void estado() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    System.out.println("La guayaba esta podrida sera mejor tirarla");
     }
     
 }

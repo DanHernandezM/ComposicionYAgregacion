@@ -11,7 +11,7 @@ package com.mycompany.Ejemplos.Agregacion;
 class Piña {
 
     void estado() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    System.out.println("La piña se ve fresca y muy amarilla, esta en su punto");
     }
     
 }
