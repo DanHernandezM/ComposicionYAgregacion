@@ -9,8 +9,24 @@ package com.mycompany.Ejemplos.Composicion;
  * @author nenod
  */
 public class Computadora {
-    
-public static void main(String[] args) {
-        System.out.println("Hello World!");
+                    public Computadora(){
+                System.out.println("Encendiendo computadora");   
+                Cpu cpu = new Cpu();
+		Puerto puerto = new Puerto();
+		Pantalla pantalla = new Pantalla();
+		Centrocarga cc = new Centrocarga();
+		Pila pila = new Pila();
+
+		
+		cpu.procesar();
+		puerto.detectar();
+		pantalla.encender();
+		cc.detectar();
+		pila.cargar();
+		
     }
+public static void main(String[] args) {
+Computadora Acer = new Computadora();    
+    
+}
 }
