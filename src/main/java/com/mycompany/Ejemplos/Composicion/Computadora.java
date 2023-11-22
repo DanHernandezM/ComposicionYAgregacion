@@ -16,14 +16,21 @@ public class Computadora {
 		Pantalla pantalla = new Pantalla();
 		Centrocarga cc = new Centrocarga();
 		Pila pila = new Pila();
-
-		
+		Gpu gpu = new Gpu();
+		Teclado teclado = new Teclado();
+		Mouse mouse = new Mouse();
+		Altavoz altavoz = new Altavoz();
+		Disco hdd = new Disco();
 		cpu.procesar();
 		puerto.detectar();
 		pantalla.encender();
 		cc.detectar();
 		pila.cargar();
-		
+		gpu.renderizar();
+		teclado.iluminar();
+		mouse.encender();
+		altavoz.encender();
+		hdd.leer();
     }
 public static void main(String[] args) {
 Computadora Acer = new Computadora();    
